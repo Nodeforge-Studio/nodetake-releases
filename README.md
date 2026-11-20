@@ -8,11 +8,11 @@ NodeTake is a visual workspace for AI media creation, editing, and automation. *
 
 ## Release transition
 
-Published **v0.1.3** is the earlier **NodeForge** installer, retaining its original name and artwork. Current source has moved to NodeTake; a new branded installer has not yet been published. These manuals describe current NodeTake and identify transition differences. A README change does not add features to old binaries.
+**v0.2.0** is the first installer published under the NodeTake name — the earlier **v0.1.3** release kept the NodeForge name and artwork. Installing 0.2.0 over an existing 0.1.x install updates it in place: the install identity and the `%APPDATA%\nodeforge` profile are unchanged, so projects, settings and accounts carry over. These manuals describe current NodeTake.
 
 ## Downloads and setup
 
-This repository contains public installers and documentation, not private application source. Releases attach an installer, `.blockmap`, and `latest.yml` for the updater. Legacy assets keep their NodeForge filenames. Use the attached executable, not GitHub's source ZIP.
+This repository contains public installers and documentation, not private application source. Releases attach an installer, `.blockmap`, and `latest.yml` for the updater. The v0.1.3 assets keep their NodeForge filenames; v0.2.0 and later are named NodeTake. Use the attached executable, not GitHub's source ZIP.
 
 Follow the installer's folder wizard. Current NodeTake uses the Launcher for setup/activation before Studio. Browser providers use the [extension](chrome-extension/README.md) in each chosen Chrome profile. FFmpeg, optional runtimes/models, provider accounts, and credits have separate requirements.
 
